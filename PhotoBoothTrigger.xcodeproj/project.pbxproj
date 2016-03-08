@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		467AE77B63D7E48540368D41 /* libPods-PhotoBoothTriggerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E50644D4EDADE7540D89183 /* libPods-PhotoBoothTriggerTests.a */; };
 		816D62221C8F4A7900EFB920 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62211C8F4A7900EFB920 /* main.m */; };
 		816D62251C8F4A7900EFB920 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62241C8F4A7900EFB920 /* AppDelegate.m */; };
 		816D62281C8F4A7900EFB920 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62271C8F4A7900EFB920 /* FirstViewController.m */; };
@@ -16,6 +17,8 @@
 		816D62331C8F4A7900EFB920 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 816D62311C8F4A7900EFB920 /* LaunchScreen.storyboard */; };
 		816D623E1C8F4A7900EFB920 /* PhotoBoothTriggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D623D1C8F4A7900EFB920 /* PhotoBoothTriggerTests.m */; };
 		816D62491C8F4A7900EFB920 /* PhotoBoothTriggerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 816D62481C8F4A7900EFB920 /* PhotoBoothTriggerUITests.m */; };
+		F052673E4B85F1519910FBFD /* libPods-PhotoBoothTriggerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 532B6281D5A661235297B124 /* libPods-PhotoBoothTriggerUITests.a */; };
+		FE0CACD7D59CBE8AB446A27B /* libPods-PhotoBoothTrigger.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC3F6827F95CF901AC646E3F /* libPods-PhotoBoothTrigger.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		532B6281D5A661235297B124 /* libPods-PhotoBoothTriggerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoBoothTriggerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5469CE33F9B3B9C54DBF55B0 /* Pods-PhotoBoothTriggerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBoothTriggerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBoothTriggerTests/Pods-PhotoBoothTriggerTests.release.xcconfig"; sourceTree = "<group>"; };
+		74A29EB43B6691D202D4047E /* Pods-PhotoBoothTriggerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBoothTriggerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBoothTriggerTests/Pods-PhotoBoothTriggerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		816D621D1C8F4A7900EFB920 /* PhotoBoothTrigger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBoothTrigger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		816D62211C8F4A7900EFB920 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		816D62231C8F4A7900EFB920 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,6 +60,12 @@
 		816D62441C8F4A7900EFB920 /* PhotoBoothTriggerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoBoothTriggerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		816D62481C8F4A7900EFB920 /* PhotoBoothTriggerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoBoothTriggerUITests.m; sourceTree = "<group>"; };
 		816D624A1C8F4A7900EFB920 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E50644D4EDADE7540D89183 /* libPods-PhotoBoothTriggerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoBoothTriggerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC3F6827F95CF901AC646E3F /* libPods-PhotoBoothTrigger.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PhotoBoothTrigger.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFF7E8CB2E4C2FC80B944C42 /* Pods-PhotoBoothTrigger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBoothTrigger.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBoothTrigger/Pods-PhotoBoothTrigger.release.xcconfig"; sourceTree = "<group>"; };
+		C9CEBE88878D8B415332611F /* Pods-PhotoBoothTrigger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBoothTrigger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBoothTrigger/Pods-PhotoBoothTrigger.debug.xcconfig"; sourceTree = "<group>"; };
+		CD4F82C44B988A42937AF513 /* Pods-PhotoBoothTriggerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBoothTriggerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBoothTriggerUITests/Pods-PhotoBoothTriggerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5CE9537F4ECD78CCA0B7597 /* Pods-PhotoBoothTriggerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PhotoBoothTriggerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PhotoBoothTriggerUITests/Pods-PhotoBoothTriggerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE0CACD7D59CBE8AB446A27B /* libPods-PhotoBoothTrigger.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				467AE77B63D7E48540368D41 /* libPods-PhotoBoothTriggerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F052673E4B85F1519910FBFD /* libPods-PhotoBoothTriggerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31FBFA79549293653724E69F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9CEBE88878D8B415332611F /* Pods-PhotoBoothTrigger.debug.xcconfig */,
+				BFF7E8CB2E4C2FC80B944C42 /* Pods-PhotoBoothTrigger.release.xcconfig */,
+				74A29EB43B6691D202D4047E /* Pods-PhotoBoothTriggerTests.debug.xcconfig */,
+				5469CE33F9B3B9C54DBF55B0 /* Pods-PhotoBoothTriggerTests.release.xcconfig */,
+				D5CE9537F4ECD78CCA0B7597 /* Pods-PhotoBoothTriggerUITests.debug.xcconfig */,
+				CD4F82C44B988A42937AF513 /* Pods-PhotoBoothTriggerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		466C24760D433134FB844584 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC3F6827F95CF901AC646E3F /* libPods-PhotoBoothTrigger.a */,
+				8E50644D4EDADE7540D89183 /* libPods-PhotoBoothTriggerTests.a */,
+				532B6281D5A661235297B124 /* libPods-PhotoBoothTriggerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		816D62141C8F4A7900EFB920 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +126,8 @@
 				816D623C1C8F4A7900EFB920 /* PhotoBoothTriggerTests */,
 				816D62471C8F4A7900EFB920 /* PhotoBoothTriggerUITests */,
 				816D621E1C8F4A7900EFB920 /* Products */,
+				31FBFA79549293653724E69F /* Pods */,
+				466C24760D433134FB844584 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -152,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 816D624D1C8F4A7900EFB920 /* Build configuration list for PBXNativeTarget "PhotoBoothTrigger" */;
 			buildPhases = (
+				94F717D6A78C4D5E34D36D92 /* 📦 Check Pods Manifest.lock */,
 				816D62191C8F4A7900EFB920 /* Sources */,
 				816D621A1C8F4A7900EFB920 /* Frameworks */,
 				816D621B1C8F4A7900EFB920 /* Resources */,
+				86615E5750B5F79401231FB7 /* 📦 Embed Pods Frameworks */,
+				F7AC0562FA8B0A20680FAD6E /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -169,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 816D62501C8F4A7900EFB920 /* Build configuration list for PBXNativeTarget "PhotoBoothTriggerTests" */;
 			buildPhases = (
+				B4E899E541CBE404F2684EB6 /* 📦 Check Pods Manifest.lock */,
 				816D62351C8F4A7900EFB920 /* Sources */,
 				816D62361C8F4A7900EFB920 /* Frameworks */,
 				816D62371C8F4A7900EFB920 /* Resources */,
+				D4339B1486A87115FFEB87C1 /* 📦 Embed Pods Frameworks */,
+				6A7B480A1098AB3422012AAD /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -187,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 816D62531C8F4A7900EFB920 /* Build configuration list for PBXNativeTarget "PhotoBoothTriggerUITests" */;
 			buildPhases = (
+				33DC6EB2EAD7668DCE1D1260 /* 📦 Check Pods Manifest.lock */,
 				816D62401C8F4A7900EFB920 /* Sources */,
 				816D62411C8F4A7900EFB920 /* Frameworks */,
 				816D62421C8F4A7900EFB920 /* Resources */,
+				89DE5A6E8B5331A62C5F8E33 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -269,6 +317,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33DC6EB2EAD7668DCE1D1260 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6A7B480A1098AB3422012AAD /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBoothTriggerTests/Pods-PhotoBoothTriggerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86615E5750B5F79401231FB7 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBoothTrigger/Pods-PhotoBoothTrigger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89DE5A6E8B5331A62C5F8E33 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBoothTriggerUITests/Pods-PhotoBoothTriggerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94F717D6A78C4D5E34D36D92 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E899E541CBE404F2684EB6 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4339B1486A87115FFEB87C1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBoothTriggerTests/Pods-PhotoBoothTriggerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7AC0562FA8B0A20680FAD6E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PhotoBoothTrigger/Pods-PhotoBoothTrigger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		816D62191C8F4A7900EFB920 /* Sources */ = {
@@ -417,9 +588,11 @@
 		};
 		816D624E1C8F4A7900EFB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9CEBE88878D8B415332611F /* Pods-PhotoBoothTrigger.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBoothTrigger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bossa.PhotoBoothTrigger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +601,11 @@
 		};
 		816D624F1C8F4A7900EFB920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFF7E8CB2E4C2FC80B944C42 /* Pods-PhotoBoothTrigger.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoBoothTrigger/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bossa.PhotoBoothTrigger;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +614,7 @@
 		};
 		816D62511C8F4A7900EFB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74A29EB43B6691D202D4047E /* Pods-PhotoBoothTriggerTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PhotoBoothTriggerTests/Info.plist;
@@ -451,6 +627,7 @@
 		};
 		816D62521C8F4A7900EFB920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5469CE33F9B3B9C54DBF55B0 /* Pods-PhotoBoothTriggerTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = PhotoBoothTriggerTests/Info.plist;
@@ -463,6 +640,7 @@
 		};
 		816D62541C8F4A7900EFB920 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CE9537F4ECD78CCA0B7597 /* Pods-PhotoBoothTriggerUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PhotoBoothTriggerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -475,6 +653,7 @@
 		};
 		816D62551C8F4A7900EFB920 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD4F82C44B988A42937AF513 /* Pods-PhotoBoothTriggerUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = PhotoBoothTriggerUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -504,6 +683,7 @@
 				816D624F1C8F4A7900EFB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816D62501C8F4A7900EFB920 /* Build configuration list for PBXNativeTarget "PhotoBoothTriggerTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +692,7 @@
 				816D62521C8F4A7900EFB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		816D62531C8F4A7900EFB920 /* Build configuration list for PBXNativeTarget "PhotoBoothTriggerUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +701,7 @@
 				816D62551C8F4A7900EFB920 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
